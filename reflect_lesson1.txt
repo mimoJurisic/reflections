@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    in windows command prompt:
+       FC file1 file2
+    in Mac or Linux terminal:
+       diff file1 file2
+       diff -u file1 file2   
+       	    (-u gives more readable option, also more info)
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    it is god idea to save current vesrion of the file !
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+How can you use the commands git log and git diff to view the history of files?
+
+How might using version control make you more confident to make changes that could break something?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+
+git commit (take this point as a snaphot in history as an entry log)
+git clone repository_url (copies all of the history not just files)
+git config --global color.ui auto (changes color of diff output)
+git diff log_id1 log_id2
